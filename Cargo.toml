@@ -18,9 +18,9 @@ include = [
 ]
 
 [dependencies]
-egui = "0.21.0"
-egui-miniquad = "0.14.0"
-macroquad = { version="0.3.25", default-features=false }
+egui = "0.22.0"
+egui-miniquad = { path="../egui-miniquad" }
+macroquad = { path="../macroquad", default-features=false }
 
 [features]
 default = ["audio"]
